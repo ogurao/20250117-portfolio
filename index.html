@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            My portfolio
+        </h1>
+         <nav>
+            <ul>
+                <li><a href="#about">Profile</a></li>
+                <li><a href="#menu">Works</a></li>
+                <li><a href="#menu-2">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+
+    </header>
+    <main>
+        <img class="main-visual" src="img/logo.png" alt="メインビジュアル">
+        <div id="about"data-aos="fade-up">
+            <h2>Profile</h2>
+            <li class="pbox"><h3>小倉 乙紗</h3><p>Age:18<br>Born:2006.03.19<br>Hometown:Chiba<br>東京デザインテクノロジーセンター専門学校、UI・UXデザイナー専攻一年。
+            <br>趣味は舞台観劇や絵を描くことです。</p>
+            <h3>Skill</h3>
+            <ul class="skill">
+                <p>HTML/CSS<br>Figma<br>Photoshop<br>illustrator</p>
+                <p>★★★☆☆　　基本的な操作と少しの応用が可能です。
+                <br>★★★☆☆　　基本的な操作と少しの応用が可能です。
+                <br>★★☆☆☆　　基本的な操作が可能です。
+                <br>★★☆☆☆　　基本的な操作が可能です。</p>
+            </ul>
+        </li>
+        </div>
+        <div id="menu"data-aos="fade-up">
+            <h2>Works</h2>
+            <ul class="list">
+                <li class="item">
+                    <a href="https://ogurao.github.io/20241108_web/design/index.html#" target="_blank">
+                    <img src="img/FirstViewFullScreen.png" alt="ファーストビューフルスクリーン">
+                </a>
+                    <p>ファーストビューフルスクリーン</p>
+                </li>
+
+                <li class="item">
+                    <a href="https://ogurao.github.io/20241101_form2/design/indx.html" target="_blank">
+                    <img src="img/fome.png" alt="お問い合わせフォーム">
+                </a>
+                    <p>お問い合わせフォーム</p>
+                </li>
+
+                <li class="item">
+                    <a href="https://ogurao.github.io/20241115_web/design/index.html#" target="_blank">
+                    <img src="img/myusya.png" alt="fixed-sidebar">
+                </a>
+                    <p>fixed-sidebar</p>
+                
+                </li>
+
+                <li class="item">
+                    <a href="https://ogurao.github.io/20240906_html_css/" target="_blank">
+                    <img src="img/sanrio.png" alt="サンリオHP風サイト">
+                    </a>
+                    <p>サンリオHP風サイト</p>
+                </li>
+
+                <li class="item">
+                    <a href="https://ogurao.github.io/20241018-hc/design/index.html" target="_blank">
+                    <img src="img/sm.png" alt="事務所HP風サイト">
+                    </a>
+                    <p>事務所HP風サイト</p>
+                </li>
+                
+                <li class="item">
+                    <a href="https://ogurao.github.io/20240913_html_css/" target="_blank">
+                    <img src="img/msd.png" alt="ミスドHP風サイト">
+                    </a>
+                    <p>ミスドHP風サイト</p>
+                </li>
+
+            </ul>
+        </div>
+
+            <div id="menu-2"data-aos="fade-up">
+                <h2>About</h2>
+                <ul class="list">
+                    <li class="item">
+                        <img src="https://placehold.jp/350x350.png" alt="1">
+                        <h3>テキスト</h3>
+                        <p>テキストテキスト</p>
+                    </li>
+                    <li class="item">
+                        <img src="https://placehold.jp/350x350.png" alt="2">
+                        <h3>テキスト</h3>
+                        <p>テキストテキスト</p>
+                    </li>
+                    <li class="item">
+                        <img src="https://placehold.jp/350x350.png" alt="3">
+                        <h3>テキスト</h3>
+                        <p>テキストテキスト</p>
+                    </li>
+                </ul>
+        </div>
+
+        <forms name="contact" method="POST" netlify>
+        <div id="contact"data-aos="fade-up">
+        <h2>Contact</h2>
+        <form action="confirm.html">
+            <label id="user-name" class="form-item">
+                <p class="form-heasing">お名前</p>
+                <input type="text" name="name" placeholder="お名前をフルネームでご入力ください"require>
+            </label>
+            <label id="user-email" class="form-item">
+                <p class="form-heasing">メールアドレス</p>
+                <input type="text" name="mail" placeholder="メールアドレスをご入力ください"require>
+            </label>
+            <label id="contact-content" class="form-item">
+                <p class="form-heasing">お問い合わせ内容</p>
+                <input type="text" name="message" placeholder="お問い合わせ内容をご入力ください"require>
+            </label>
+            <div class="btn-area">
+                <button id="btn_confirm" class="btn">送信</button>
+            </div>
+        </form>
+    </div>
+</forms>
+    </main>
+    <footer>
+        <small class="copyright">&copy; 2024 OtosaOgura</small>
+    </footer>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
