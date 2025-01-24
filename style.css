@@ -173,6 +173,11 @@ main{
     color: #5a5a5a;
 }
 
+#menu-2 img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
 
 #contact{
     padding: 150px 0 150px 0;
